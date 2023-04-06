@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Contact Form</title>
+<link href="styles.css" rel="stylesheet"> 
+</head>
+
+<body>
+<h1>Contact Information</h1>
+
+<div class = "info">
+<form method="post">
+
+<fieldset><legend align="left"><strong>Personal Information</strong></legend>
+<Strong>Full Name: </Strong><input name="fullname" type="text" size="35" placeholder="Name" />
+
+<Strong>Email Address: </Strong> <input name="email" type="text" size="35" placeholder="Email"/>
+<br/>
+<br /><Strong>Phone Number: </Strong><input name="Phone" type="text" size="30" placeholder="Phone #"/>
+
+<p><Strong>Continent: </Strong>
+<select name="Area" aria-placeholder="Continent">
+   <option>North America</option>
+   <option>South America</option>
+   <option>Europe</option>
+   <option>Asia</option>
+   <option>Africa</option>
+   <option>Antartica</option>
+   <option>Australia</option>
+</select>
+</p>
+
+<p><Strong>Message:</Strong>
+<br />
+<br/>
+<textarea name="other" rows="5" cols="100" placeholder="Message"></textarea></p>
+</fieldset>
+
+<p><input type="submit" value="Submit"/>
+<input type="reset" value="Reset"/></p>
+<p>Thank You.
+
+</form>
+</div>
+</body>
+</html>

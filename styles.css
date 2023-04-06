@@ -1,0 +1,20 @@
+
+
+html{
+   background-image:url(simple.jpg);
+   background-image:linear-gradient(rgb(62, 85, 123),#878799);
+   background-image:cover;
+}
+
+h1{
+    text-align: center;
+    font-size: +5;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+form{
+    display:contents;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
